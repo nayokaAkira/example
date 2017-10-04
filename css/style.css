@@ -303,15 +303,25 @@ header .account-header img{
     width: 45px;
     height: 45px;
 }
-header .block-login a+a{
-    margin-right: 10px;
-}
-header .block-login a{
-    font-size: 13px;
-    width: 120px;
-    padding: 4px 12px 6px;
-    margin-top: 25px;
+.block-login .cart-header+.dropdown>a{
+    display: block;
     float: right;
+    margin: 20px 15px 0 0;
+    text-align: left;
+    padding: 15px 5px 0;
+    font-size: 18px;
+}
+.block-login div.dropdown-menu-header{
+    padding: 0 15px;
+    width: 240px;
+    right: 15px;
+    left: auto;
+}
+.block-login div.dropdown-menu-header>a{
+    display: block;
+    padding: 4px 12px;
+    margin: 7px 0;
+    font-size: 13px;
 }
 header .logined .block-login{
     display: none;
@@ -1941,3 +1951,10 @@ h1.title_page span:after{
     line-height: initial;
 }
 /* end */
+/* Logined modal */
+#login-form .modal-dialog,#success-form .modal-dialog,#logout-form .modal-dialog{
+    width: 320px;
+}
+#register-form .modal-dialog{
+    
+}
