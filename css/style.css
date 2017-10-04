@@ -1958,3 +1958,71 @@ h1.title_page span:after{
 #register-form .modal-dialog{
     
 }
+/* Danh mục cha products*/
+.viewmore-product a{
+    position: absolute;
+    top: -35px;
+    right: 15px;
+    display: block;
+    padding: 6px 15px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+.viewmore-product a:hover{
+    background: #ffd900;
+    color: #fff;
+    text-decoration: none;
+}
+.list-products{
+    position: relative;
+}
+.list-products .box-product.item{
+    width: 100%;
+}
+.list-products .box-product.item .item-product{
+    margin: 5px 0;
+}
+/* owl slider */
+.list-products .owl-nav{
+    position: absolute;
+    top: calc(50% - 15px);
+    width: 100%;
+}
+.list-products .owl-nav .owl-prev{
+    position: absolute;
+    left: 10px;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background: #fff url(../img/arrow.png) left 5px top 5px no-repeat;
+    text-indent: -9999px;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.list-products .owl-nav .owl-prev:hover{
+    background: #fff url(../img/arrow.png) left 5px top -35px no-repeat;
+}
+.list-products .owl-nav .owl-next{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background: #fff url(../img/arrow.png) right 3px top 5px no-repeat;
+    text-indent: -9999px;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.list-products .owl-nav .owl-next:hover{
+    background: #fff url(../img/arrow.png) right 3px top -35px no-repeat;
+}
+/* end */
