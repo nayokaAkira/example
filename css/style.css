@@ -1234,12 +1234,14 @@ h1.title_page span:after{
 }
 .cart-side.cart-info .content-cart-info>ul>li{
     border-top: 1px solid #d8d8d8;
-    background: #ddd;
     overflow: hidden;
     padding: 15px 15px;
 }
-.cart-side.cart-info .content-cart-info>ul>li:nth-child(2n){
+.bg_fffdee{
     background: #fffdee;
+}
+.bg_ddd{
+    background: #ddd;
 }
 .cart-side.cart-info .content-cart-info>ul>li .action-cart a{
     width: 120px;
