@@ -2216,3 +2216,10 @@ section .title-section {
 .mar-top20{
     margin-top: 20px;
 }
+/* add Css mr Hoang */
+span.txt-account{
+ color:#333;
+ font-size: 13px;     
+ margin-top: 5px;
+    display: block;
+}
