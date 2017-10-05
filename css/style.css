@@ -1956,7 +1956,7 @@ h1.title_page span:after{
     width: 320px;
 }
 #register-form .modal-dialog{
-    
+
 }
 /* Danh mục cha products*/
 .viewmore-product a{
@@ -2127,7 +2127,7 @@ h1.title_page span:after{
 #cart-page .total-bill table th,#cart-page .total-bill table td{
     padding: 15px;
     border-top: none;
-    
+
 }
 #cart-page .total-bill table td{
     text-align: right;
@@ -2163,16 +2163,16 @@ h1.title_page span:after{
     }
 }
 @media (max-width: 768px){
-    
+
 }
 @media (max-width: 603px){
     #cart-page table.table-cart td{
         padding: 10px;
     }
     #cart-page table.table-cart a.product-remove{
-/*        clear: both;
-        display: inline-block;
-        position: relative;*/
+        /*        clear: both;
+                display: inline-block;
+                position: relative;*/
     }
     #cart-page table.table-cart thead{
         display: none;
@@ -2193,5 +2193,29 @@ h1.title_page span:after{
     }
 }
 @media (max-width: 480px){
-    
+
+}
+/* Add css mr Hoang */
+section .title-section {
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.cart-empty{
+    margin-top: 15px;
+    text-align: center;
+}
+.login-link{
+    font-size: 13px !important;
+    color: #333;
+}
+.login-link:hover{
+    text-decoration: none !important;
+    color : #ffd900 !important;
+}
+.mar-top20{
+    margin-top: 20px;
 }
