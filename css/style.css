@@ -1107,6 +1107,7 @@ h1.title_page span:after{
 #detail-product .list-box-items .box-item .title-box-item{
     width: 280px;
     float: left;
+    color: #333;
 }
 #detail-product .list-box-items .box-item .box-price{
     position: absolute;
