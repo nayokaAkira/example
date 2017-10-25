@@ -1,4 +1,7 @@
 @import url(../lib/starrating/css/star-rating.css);
+.affix{
+    position: fixed !important;
+}
 .wrapper{
     max-width: 1349px;
     width: 100%;
