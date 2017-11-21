@@ -127,6 +127,53 @@ and open the template in the editor.
                         </div>
                     </div>
                     <div class="container">
+                        <div id="nvn_sp_goiy" class="owl-carousel">
+                            <div class="item">
+                                <div class="imgleft">
+                                    <div class="image"><img src="img/img01.png" alt=""/></div>
+                                    <h3>Sản phẩm 01</h3>
+                                    <p><span>Sp chính hãng ...</span></p>
+                                    <p><b class="cl_ea0000">30.000đ</b></p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imgleft">
+                                    <div class="image"><img src="img/img01.png" alt=""/></div>
+                                    <h3>Sản phẩm 02</h3>
+                                    <p><b class="cl_ea0000">30.000đ</b></p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imgleft">
+                                    <div class="image"><img src="img/img01.png" alt=""/></div>
+                                    <h3>Sản phẩm 03</h3>
+                                    <p><b class="cl_ea0000">30.000đ</b></p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imgleft">
+                                    <div class="image"><img src="img/img01.png" alt=""/></div>
+                                    <h3>Sản phẩm 04</h3>
+                                    <p><b class="cl_ea0000">30.000đ</b></p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imgleft">
+                                    <div class="image"><img src="img/img01.png" alt=""/></div>
+                                    <h3>Sản phẩm 05</h3>
+                                    <p><b class="cl_ea0000">30.000đ</b></p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="imgleft">
+                                    <div class="image"><img src="img/img01.png" alt=""/></div>
+                                    <h3>Sản phẩm 06</h3>
+                                    <p><b class="cl_ea0000">30.000đ</b></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container">
                         <div class="bg-eaeaea">
                             <span>THỰC ĐƠN</span>
                             <a href="#">KHUYẾN MÃI</a>
@@ -482,6 +529,7 @@ and open the template in the editor.
         </div>
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="lib/owlcarousel/dist/owl.carousel.min.js"></script>
         <script type="text/javascript">
             jQuery("a.nav-button-mobi").click(function () {
                 if (jQuery("body").hasClass("active-menu"))
@@ -491,6 +539,16 @@ and open the template in the editor.
                 else
                 {
                     jQuery("body").addClass("active-menu");
+                }
+            });
+            jQuery('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                nav: true,
+                responsive: {
+                    1200: {
+                        items: 5
+                    }
                 }
             });
             jQuery("a.gotop").click(function () {

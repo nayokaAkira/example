@@ -2332,3 +2332,50 @@ span.txt-account{
         margin: 0 0 25px 0;
     }
 }
+/*--------------------------*/
+#nvn_sp_goiy{
+    margin-bottom: 30px;
+}
+#nvn_sp_goiy .imgleft .image{
+    float: left;
+    max-width: 100px;
+}
+#nvn_sp_goiy .imgleft p{
+    margin: 0;
+    margin-left: 115px;
+}
+#nvn_sp_goiy .imgleft p span{
+    color: #666;
+    font-size: 13px;
+}
+#nvn_sp_goiy .imgleft h3{
+    font-size: 13px;
+    margin: 0 0 7px 110px;
+    background: #ffe533;
+    color: #333;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+#nvn_sp_goiy .owl-nav{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: 100%;
+}
+#nvn_sp_goiy .owl-nav .owl-prev{
+    float: left;width: 30px;height: 30px;text-indent: 9999px;overflow: hidden;
+    background: url(../img/banner-slides.png) left -38px no-repeat;
+    transition: all 0.5s;
+}
+#nvn_sp_goiy .owl-nav .owl-prev:hover{
+    background-position: left 0;
+}
+#nvn_sp_goiy .owl-nav .owl-next{
+    float: right;width: 30px;height: 30px;text-indent: 9999px;overflow: hidden;
+    background: url(../img/banner-slides.png) right -38px no-repeat;
+    transition: all 0.5s;
+}
+#nvn_sp_goiy .owl-nav .owl-next:hover{
+    background-position: right 0;
+}
