@@ -39,6 +39,9 @@ body{
         width: 1180px;
     }
 }
+.font12{
+    font-size: 12px;
+}
 .height100{
     height: 100%;
 }
@@ -66,6 +69,9 @@ body{
 }
 .cl_666{
     color: #666;
+}
+.cl_999{
+    color: #999;
 }
 .cl_ea0000{
     color: #ea0000;
@@ -1055,11 +1061,12 @@ h1.title_page span:after{
     font-weight: bold;
 }
 
-#detail-product ul.tab-menu li a:hover{
+#detail-product ul.tab-menu li a:hover,#detail-product ul.tab-menu li.active a{
     background: #ffd900;
     text-decoration: none;
     color: #fff;
     border: 1px solid #ffd900;
+    font-weight: normal;
 }
 #detail-product ul.tab-menu li a:hover:before{
     width: 0; 
@@ -1110,8 +1117,11 @@ h1.title_page span:after{
 }
 #detail-product .list-box-items .box-item .title-box-item{
     width: 280px;
-    float: left;
     color: #333;
+    font-weight: bold;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
 }
 #detail-product .list-box-items .box-item .box-price{
     position: absolute;
@@ -1227,6 +1237,7 @@ h1.title_page span:after{
 .cart-side.cart-info .item-cart .price>p{
     color: #999;
     margin-bottom: 0;
+    font-size: 12px;
 }
 .cart-side.cart-info .item-cart .price>p+p{
     color: #666;
@@ -2388,4 +2399,11 @@ span.txt-account{
 /*--------------------------------*/
 #welcome iframe{
     width: 100%;
+}
+/*---------------------------*/
+.nvn-user img{
+    margin-right: 10px;
+}
+.nvn-user .cart-number{
+    margin-top: 3px;
 }
