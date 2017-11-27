@@ -318,7 +318,29 @@ and open the template in the editor.
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
 
+        <!-- Modal -->
+        <div class="modal fade" id="popup_khuvuc" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="bg-333 text-center">
+                            <img id="imglogo" src="img/logo-header.png" alt=""/>
+                        </div>
+                        <p>Chọn nơi bạn đang sinh sống</p>
+                        <Div class="box-khuvuc">
+                            <p><a href="#"><i class="cl_ffd900 fa fa-map-marker" aria-hidden="true"></i> Quận 1</a></p>
+                            <p><a href="#"><i class="cl_ffd900 fa fa-map-marker" aria-hidden="true"></i> Quận 1</a></p>
+                            <p><a href="#"><i class="cl_ffd900 fa fa-map-marker" aria-hidden="true"></i> Quận 1</a></p>
+                            <p><a href="#"><i class="cl_ffd900 fa fa-map-marker" aria-hidden="true"></i> Quận 1</a></p>
+                            <p><a href="#"><i class="cl_ffd900 fa fa-map-marker" aria-hidden="true"></i> Quận 1</a></p>
+                            <p><a href="#"><i class="cl_ffd900 fa fa-map-marker" aria-hidden="true"></i> Quận 1</a></p>
+                        </Div>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -327,6 +349,7 @@ and open the template in the editor.
         <script src="lib/owlcarousel/dist/owl.carousel.min.js"></script>
         <script type="text/javascript">
             jQuery(document).ready(function () {
+                jQuery("#popup_khuvuc").modal();
                 jQuery("#btn_login").click(function () {
                     jQuery("#login-form").modal();
                 });

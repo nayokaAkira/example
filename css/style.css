@@ -79,6 +79,9 @@ body{
 .bg-eaeaea{
     background: #eaeaea;
 }
+.cl_ffd900{
+    color: #ffd900;
+}
 .btn-grey{
     background: #666;
     color: #fff;
@@ -2410,4 +2413,35 @@ span.txt-account{
 }
 .nvn-user .cart-number{
     margin-top: 3px;
+}
+/*----------------------------*/
+#popup_khuvuc .modal-dialog{
+    width: 240px;
+    text-align: center;
+}
+#popup_khuvuc .modal-dialog .bg-333{
+    background: #333;
+    margin: -15px -15px 15px;
+    padding: 10px 0;
+}
+#popup_khuvuc .modal-dialog .bg-333 img{
+    width: 100px;
+}
+#popup_khuvuc .modal-dialog .box-khuvuc{
+    overflow-y: scroll;
+    margin: 0 -15px;
+    padding: 0 15px;
+    height: 166px;
+}
+#popup_khuvuc .modal-dialog a{
+    background: #f1f1f1;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: block;
+    padding: 7px 0;
+}
+#popup_khuvuc .modal-dialog a:hover{
+    text-decoration: nonel;
+    background: #eee;
 }
