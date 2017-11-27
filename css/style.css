@@ -3,7 +3,7 @@
     position: fixed !important;
 }
 .wrapper{
-    max-width: 1349px;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
     -moz-transition: all 0.5s ease;
@@ -2310,11 +2310,17 @@ span.txt-account{
 /*--------------------------------*/
 #custom-search-input{
     max-width: 300px;
-    margin: 23px 0 15px 15px;
+    margin: 23px 0 15px 30px;
 }
 #custom-search-input button{
     border: 1px solid #ddd;
     border-left: none;
+    background: #666;
+    color: #ffd900;
+    padding: 6px 8px 3px 10px;
+    font-size: 18px;
+    margin-top: -1px;
+    border-radius: 0 4px 4px 0;
 }
 #custom-search-input button:focus,#custom-search-input button.active,#custom-search-input button:active{
     outline: none;
@@ -2378,4 +2384,8 @@ span.txt-account{
 }
 #nvn_sp_goiy .owl-nav .owl-next:hover{
     background-position: right 0;
+}
+/*--------------------------------*/
+#welcome iframe{
+    width: 100%;
 }
