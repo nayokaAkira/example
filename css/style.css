@@ -1337,10 +1337,14 @@ h1.title_page span:after{
 }
 @media (max-width: 480px){
     #detail-product .list-box-items .box-item .title-box-item{
-        width: 200px;
+        width: 180px;
+        font-size: 13px;
     }
     #detail-product .list-box-items .box-item .box-price .price{
         font-size: 13px;
+    }
+    #detail-product .list-box-items .box-item .box-price i{
+        margin-left: 5px;
     }
 }
 /*------------------------*/
