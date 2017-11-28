@@ -197,7 +197,7 @@ and open the template in the editor.
                                     </div>
                                     <div class="form-group col-md-6"><input type="email" class="form-control no-round" id="email" placeholder="Email"></div>
                                 </div>
-                                
+
                                 <div class="form-group">
                                     <div>
                                         <label class="checkbox-inline"><input type="checkbox" value=""><b>Địa chỉ chi nhánh Tân Bình 1</b>: 216 Hoàng Văn Thụ, phường 4, quận Tân bình, thành phố Hồ Chí Minh</label>
@@ -206,7 +206,7 @@ and open the template in the editor.
                                         <label class="checkbox-inline"><input type="checkbox" value=""><b>Địa chỉ chi nhánh Tân Bình 2</b>: 216 Hoàng Văn Thụ, phường 4, quận Tân bình, thành phố Hồ Chí Minh</label>
                                     </div>
                                 </div>
-                                
+
                                 <div class="form-group">
                                     <label class="checkbox-inline"><input class="action-other-address" type="checkbox" value=""><b>Giao đến địa chỉ khác</b></label>
                                 </div>
@@ -228,6 +228,29 @@ and open the template in the editor.
                                             </select>
                                         </div>
                                         <div class="form-group col-md-6"><input type="email" class="form-control no-round" id="email" placeholder="Email"></div>
+                                    </div>
+                                </div>
+                                <p><i class="fa fa-circle cl_ffd900" aria-hidden="true"></i> Thời gian nhận hàng</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="row">
+                                            <div class="form-group col-xs-6">
+                                                <select class="form-control no-round">
+                                                    <option>27-11-2017</option>
+                                                    <option>28-11-2017</option>
+                                                    <option>29-11-2017</option>
+                                                    <option>30-11-2017</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group col-xs-6">
+                                                <select class="form-control no-round">
+                                                    <option>11h</option>
+                                                    <option>12h</option>
+                                                    <option>13h</option>
+                                                    <option>14h</option>
+                                                </select>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <p><i class="fa fa-circle text-primary" aria-hidden="true"></i> Ghi chú cho đơn hàng</p>
@@ -316,7 +339,7 @@ and open the template in the editor.
                     jQuery(".other-address").hide(200);
                 }
             });
-            jQuery(".cf_chat>a").click(function(){
+            jQuery(".cf_chat>a").click(function () {
                 if (jQuery(this).parent().hasClass("active"))
                 {
                     jQuery(this).parent().removeClass("active");
