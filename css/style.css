@@ -1180,8 +1180,6 @@ h1.title_page span:after{
 .cart-side.cart-info{
     float: left;
     width: 280px;
-    border: 1px solid #ffd900;
-    border-radius: 5px 5px 0 0;
 }
 .cart-side.cart-info .title-cart-info{
     font-size: 15px;
@@ -2450,4 +2448,8 @@ span.txt-account{
         font-weight: normal;
         font-size: 12px;
     }
+}
+.cart-side.cart-info .nvn-class-affix{
+    border: 1px solid #ffd900;
+    border-radius: 5px 5px 0 0;
 }
