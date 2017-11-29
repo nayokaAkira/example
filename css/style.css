@@ -2445,3 +2445,10 @@ span.txt-account{
     text-decoration: nonel;
     background: #eee;
 }
+@media (max-width: 380px){
+    #detail-product .list-box-items .box-item .title-box-item{
+        width: 120px;
+        font-weight: normal;
+        font-size: 12px;
+    }
+}
