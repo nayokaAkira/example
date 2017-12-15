@@ -15,6 +15,7 @@ and open the template in the editor.
         <link rel="stylesheet" type="text/css" href="css/style.css" media="screen"/>
     </head>
     <body>
+		<div class="fog"></div>
         <div class="wrapper">
             <header>
                 <div class="bg_black">
@@ -167,6 +168,20 @@ and open the template in the editor.
                         </div>
                     </div>
                 </section><!-- End News -->
+				<section id="customer" class="marg40">
+					<div class="container">
+						<div class="owl-carousel">
+							<div class="item"><img src="http://www.todayins.com/wp-content/uploads/citizens-logo.png" alt=""></div>
+							<div class="item"><img src="http://www.todayins.com/wp-content/uploads/citizens-logo.png" alt=""></div>
+							<div class="item"><img src="http://www.todayins.com/wp-content/uploads/citizens-logo.png" alt=""></div>
+							<div class="item"><img src="http://www.todayins.com/wp-content/uploads/citizens-logo.png" alt=""></div>
+							<div class="item"><img src="http://www.todayins.com/wp-content/uploads/citizens-logo.png" alt=""></div>
+							<div class="item"><img src="http://www.todayins.com/wp-content/uploads/citizens-logo.png" alt=""></div>
+							<div class="item"><img src="http://www.todayins.com/wp-content/uploads/citizens-logo.png" alt=""></div>
+							<div class="item"><img src="http://www.todayins.com/wp-content/uploads/citizens-logo.png" alt=""></div>
+						</div>
+					</div>
+				</section>
             </article>
             <footer>
                 <div class="container">
@@ -394,6 +409,9 @@ and open the template in the editor.
                     jQuery("body").addClass("active-menu");
                 }
             });
+			jQuery(".fog").click(function () {
+                jQuery("body").removeClass("active-menu");
+            });
             jQuery("a.gotop").click(function () {
                 $('html, body').animate({scrollTop: 0}, 'fast');
             });
@@ -407,12 +425,16 @@ and open the template in the editor.
                     jQuery(this).parent().addClass("active");
                 }
             });
-            jQuery('.owl-carousel').owlCarousel({
+            jQuery('.block-slide .owl-carousel').owlCarousel({
                 loop: true,
                 margin: 0,
                 nav: true,
                 items: 1
             });
+			jQuery('#customer .owl-carousel').owlCarousel({
+				nav: true,
+                items: 5
+			})
         </script>
         <div id="fb-root"></div>
         <script>(function (d, s, id) {
