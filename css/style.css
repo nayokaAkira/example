@@ -2633,3 +2633,24 @@ body.active-menu .fog{
     background: #fff url(../img/arrow.png) right 3px top -35px no-repeat;
 }
 /* end */
+#custom-search-input{
+	position: relative;
+}
+#custom-search-input>ul{
+	padding:0;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	top:100%;
+	left:0;
+	width: 100%;
+	z-index:9999;
+	display:block;
+}
+#custom-search-input>ul li a{
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	padding: 9px 15px 7px;
+	display:block;
+	color: #333;
+}
