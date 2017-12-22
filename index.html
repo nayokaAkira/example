@@ -26,10 +26,10 @@ and open the template in the editor.
                             <ul class="clearfix">
                                 <li><a class="active" href="welcome.html">COFFEE</a></li>
                                 <li>
-                                    <a href="product.html">SHOP 24h<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                                    <a href="javascrip:void(0)">SHOP 24h<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                                     <ul>
                                         <li>
-                                            <a href="#">MENU CAP 2</a>
+                                            <a href="#">MENU CAP 2<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                                             <ul>
                                                 <li>
                                                     <a href="#">MENU CAP 3</a>
@@ -430,6 +430,9 @@ and open the template in the editor.
                 {
                     jQuery(this).parent().addClass("active");
                 }
+            });
+            jQuery('#nav ul>li>a i').click(function(){
+                jQuery(this).parent().parent().find('>ul').slideToggle('fast');
             });
             jQuery('.block-slide .owl-carousel').owlCarousel({
                 loop: true,
