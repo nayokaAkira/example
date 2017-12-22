@@ -2610,37 +2610,27 @@ body.active-menu .fog{
     position: absolute;
     left: 0;
     top: 0;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 1px solid #ccc;
-    background: #fff url(../img/arrow.png) left 5px top 5px no-repeat;
+    width: 20px;
+    height: 30px;
+    background: #fff url(../img/slides_1.png) left top no-repeat;
     text-indent: -9999px;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
     transition: all 0.2s ease;
-}
-#customer .owl-nav .owl-prev:hover{
-    background: #fff url(../img/arrow.png) left 5px top -35px no-repeat;
 }
 #customer .owl-nav .owl-next{
     position: absolute;
     right: 0;
     top: 0;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 1px solid #ccc;
-    background: #fff url(../img/arrow.png) right 3px top 5px no-repeat;
+    width: 20px;
+    height: 30px;
+    background: #fff url(../img/slides_1.png) right 0 top 0 no-repeat;
     text-indent: -9999px;
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     -ms-transition: all 0.2s ease;
     transition: all 0.2s ease;
-}
-#customer .owl-nav .owl-next:hover{
-    background: #fff url(../img/arrow.png) right 3px top -35px no-repeat;
 }
 /* end */
 #custom-search-input{
