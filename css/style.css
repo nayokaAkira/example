@@ -1138,8 +1138,9 @@ h1.title_page span:after{
 }
 #detail-product .btn-order{
     font-size: 13px;
-    width: 160px;
+    min-width: 160px;
 }
+#detail-product .btn-order+.btn-order{margin-left: 20px;}
 #detail-product .btn-order:visited,#detail-product .btn-order:focus{
     color: #fff;
 }
